@@ -1,6 +1,6 @@
 # birdie
 
-A new Flutter application.
+Flutter app that detects the species of the bird
 
 ---
 ## Demo
