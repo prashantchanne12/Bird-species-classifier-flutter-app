@@ -167,7 +167,7 @@ class _MyAppState extends State<MyApp> {
   classifyImage(File image) async {
     var output = await Tflite.runModelOnImage(
       path: image.path,
-      numResults: 183,
+      numResults: 180,
       threshold: 0.5,
       imageMean: 127.5,
       imageStd: 127.5,
@@ -181,8 +181,8 @@ class _MyAppState extends State<MyApp> {
 
   loadModel() async {
     await Tflite.loadModel(
-      model: "assets/fullmodel.tflite",
-      labels: "assets/labels.txt",
+      model: "assets/fullmodel_2.tflite",
+      labels: "assets/labels_2.txt",
     );
   }
 
