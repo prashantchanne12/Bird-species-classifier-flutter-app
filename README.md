@@ -1,4 +1,4 @@
-# Birdie
+# Bird Species Detector
 
 Flutter app that detects the species of a bird
 
